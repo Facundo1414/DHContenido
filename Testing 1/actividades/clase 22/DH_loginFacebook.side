@@ -1,0 +1,78 @@
+{
+  "id": "c49a43ec-8e6a-4b6f-a7b7-6ba5f7d89b6d",
+  "version": "2.0",
+  "name": "DH_loginFacebook",
+  "url": "https://www.facebook.com",
+  "tests": [{
+    "id": "c6459587-9504-4a08-9793-3cb1fbb30e19",
+    "name": "InvalidLogin",
+    "commands": [{
+      "id": "b702d17d-40a2-4e53-a669-8b9cda612f50",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bb9db05-d7a5-4361-b18a-abddc7e3cb26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e5daf21-3dbc-4366-aeab-ec2bd1c6c4a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_9_+m']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "hola@gmail.com"
+    }, {
+      "id": "a7593fa3-c6fe-4e3d-b26b-f5827120b44c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='passContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "hola123"
+    }, {
+      "id": "d60d76d3-3a04-40cc-85a0-51061dbcb982",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["id=u_0_c_rg", "id"],
+        ["name=login", "name"],
+        ["css=#u_0_c_rg", "css:finder"],
+        ["xpath=//button[@id='u_0_c_rg']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_9_+m']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f15ced18-9b50-41c5-8dbb-811c6a0165f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c6459587-9504-4a08-9793-3cb1fbb30e19"]
+  }],
+  "urls": ["https://www.facebook.com/"],
+  "plugins": []
+}

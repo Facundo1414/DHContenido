@@ -1,0 +1,3 @@
+En esta clase hacen tests POS y NEG y miden la cobertura, por lo cual, el resuelto es el de la clase 18 que tiene esto mismo mas la cobertura al 100%.
+El link seria:
+https://drive.google.com/file/d/1hXFZasSIuT__Vt24qTqrZ0RxjTDDcokY/view?usp=share_link

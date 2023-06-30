@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a326ded5-aa2d-4a66-add4-a9cd6deae9e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/clase parcialito.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/src/com/company/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/src/com/company/Examen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/src/com/company/Final.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 13/clase parcialito/src/com/company/Parcial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/clase 14 HD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/src/com/company/Capitan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/src/com/company/Emabarcacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/src/com/company/Velero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 14/clase 14 HD/src/com/company/Yate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/DH-Operaciones-Sobre-Colecciones/DH-Operaciones-Sobre-Colecciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/DH-Relaciones1aMuchos/DH-Relaciones1aMuchosOrdenados.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/PuertoBsAs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/src/com/company/Contenedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/PuertoBsAs/src/com/company/Puerto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/coleccionesEjercicio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/src/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/coleccionesEjercicio/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/recorriendo/DH-Recorriendo-Colecciones/DH-Recorriendo-Colecciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 16/recorriendo/clase 16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/DH-Excepciones/DH-Excepciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/DH-ExcepcionesPropias/DH-ExcepcionesPropias.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/DH-LanzarExcepciones/DH-LanzarExcepciones.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/DH-ExcepcionesPaciente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes/src/com/company/PacienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes22/DH-ExcepcionesPaciente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/Pacientes22/src/com/company/PacienteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/clinica/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/clinica/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/clinica/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/clinica/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 17/clinica/clinica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/src/com/company/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/src/com/company/Estacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/src/com/company/Reserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 18/trenes/trenes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/Clase 19 C3/Clase 19 C3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/EjemploFactoryMethod19/EjemploFactoryMethod19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/clase 19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/src/Almacen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/src/Caja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/src/Pelota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/src/ProdcutoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 19/clase 19/src/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/CarritoDeCompras.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/src/Estados/Cargando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/src/Estados/Carrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/src/Estados/Cerrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/src/Estados/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/src/Estados/Pagando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/src/Estados/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Mesa/CarritoDeCompras/src/Estados/Vacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/Semaforo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/src/estados/Amarillo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/src/estados/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/src/estados/Rojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/src/estados/Semaforo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Semaforo/src/estados/Verde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/Tesla.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/out/production/Tesla/Apagado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/out/production/Tesla/Auto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/out/production/Tesla/EnMarcha.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/out/production/Tesla/Parado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/out/production/Tesla/Programa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/out/production/Tesla/SinNafta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 20/Tesla/out/production/Tesla/StateAuto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio de Service.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servicio Tecnico.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servicio Tecnico/Articulos/Articulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servicio Tecnico/Estados/Finalizado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servicio Tecnico/Estados/ParaEnvio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servicio Tecnico/Estados/Presupuesto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servicio Tecnico/Estados/Reparacion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servicio Tecnico/Estados/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Servicio Tecnico/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Articulos/Articulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estados/Finalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estados/ParaEnvio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estados/Presupuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estados/Reparacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Estados/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/Composite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/archivos/Archivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/archivos/Carpeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/archivos/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/composite/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/composite/CompoundGraphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/composite/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/composite/Graphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/composite/ImageEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/Composite/src/composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/hamburgueseria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/src/CarritoDeCompra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/src/Combo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/src/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/hamburgueseria/src/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/patronComposite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/src/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/src/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/src/Locomotora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/src/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/src/Tren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/src/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../clase 22/patronComposite/src/Vagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Testing 1/actividades/clase 17/Formulario-Estudiantil-master/node_modules/iconv-lite/.idea/iconv-lite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Design Thinking/Design Thinking resumen.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Design Thinking/Design Thinking resumen.rtf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../P Orientada a Objetos.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../P Orientada a Objetos.rtf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase 13/Ejercicio Batalla del Futuro .docx.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../clase 13/Ejercicio Batalla del Futuro .docx.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase 13/clase 13 DH/out/production/clase 13 DH/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../clase 13/clase 13 DH/out/production/clase 13 DH/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase 13/clase 13 DH/out/production/clase 13 DH/com/company/SistemaArmas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../clase 13/clase 13 DH/out/production/clase 13 DH/com/company/SistemaArmas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase 13/clase 13 DH/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clase 13/clase 13 DH/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase 13/clase 13 DH/src/com/company/SistemaArmas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clase 13/clase 13 DH/src/com/company/SistemaArmas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clase 13/clase 13 DH/src/com/company/subClases/Tanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../clase 13/clase 13 DH/src/com/company/subClases/Tanque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Testing 1/Testing 1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Testing 1/Testing 1.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ri7tVadAkK8NDPn7v1zyU5Z0Hx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Facu/Desktop/DH/Programacion Orientada a Objetos/actividades/clase 21/Servicio Tecnico"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Estados" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Servicio Tecnico" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a326ded5-aa2d-4a66-add4-a9cd6deae9e5" name="Changes" comment="" />
+      <created>1687721264846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687721264846</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,100 @@
+{
+  "id": "e14ea5d2-48a0-4462-ade9-d13f216c9ff9",
+  "version": "2.0",
+  "name": "página principal de YouTube.",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "081eb681-3e2d-4824-a9c8-bf617606b37c",
+    "name": "Testing suscribers of DH Chanell",
+    "commands": [{
+      "id": "f692c2ff-ea68-4500-8b42-8d7520f7d94c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6b2a418-fb0e-4efb-81f0-eb7729339ec9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec5cea3d-ccc2-4430-9948-59cbcce610ee",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e6bc591-cc09-4f97-b9c5-94a27d735d3e",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Digital House"
+    }, {
+      "id": "0de3522e-663a-44a5-9f3e-5a4f23b2bc15",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#search-input > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "11a855de-d1a9-4425-be0a-9f4b1f616e99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytd-channel-renderer > #img",
+      "targets": [
+        ["css=.ytd-channel-renderer > #img", "css:finder"],
+        ["xpath=(//img[@id='img'])[32]", "xpath:attributes"],
+        ["xpath=//div[@id='avatar']/yt-img-shadow/img", "xpath:idRelative"],
+        ["xpath=//a/div/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c6e65f-7091-4780-b28c-510417177274",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=subscriber-count",
+      "targets": [],
+      "value": "7,22 K suscriptores"
+    }, {
+      "id": "357ab689-7680-4a52-8749-9ef2113e696c",
+      "comment": "",
+      "command": "close",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "19ead3c7-b877-47d0-b76a-ae7ee147228e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["081eb681-3e2d-4824-a9c8-bf617606b37c"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}

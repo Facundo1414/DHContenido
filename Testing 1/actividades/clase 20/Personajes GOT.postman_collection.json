@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "25bbe655-750f-4faa-a16f-36d72af39817",
+		"name": "Personajes GOT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener todos los personajes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 900ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(900);",
+							"});",
+							"",
+							"pm.test(\"Validar uno de los personajes del Array\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.items[1].name).to.equal(\"Cersei Lannister\");",
+							"    pm.expect(jsonData.items[1].realName).to.equal(\"Lena Headey\");",
+							"    pm.expect(jsonData.items[1].location).to.equal(\"Kings Landing\");",
+							"",
+							"});",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restool-sample-app.herokuapp.com/api/character",
+					"protocol": "https",
+					"host": [
+						"restool-sample-app",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"character"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener un personaje",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 900ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(900);",
+							"});",
+							"",
+							"pm.test(\"Validar busqueda correcta del personaje\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.items[0].name).to.equal(\"Tyrion Lannister\");",
+							"",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restool-sample-app.herokuapp.com/api/character?search=Tyrion Lannister",
+					"protocol": "https",
+					"host": [
+						"restool-sample-app",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"character"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Tyrion Lannister"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar un personaje",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 900ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(900);",
+							"});",
+							"",
+							"pm.test(\"Validar que el personaje se agrego\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.name).to.equal(\"Hodor\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"thumbnail\": \"Hodor\",\n    \"name\": \"Hodor\",\n    \"realName\": \"Hodor\",\n    \"location\": \"Winterfell\",\n    \"isAlive\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restool-sample-app.herokuapp.com/api/character",
+					"protocol": "https",
+					"host": [
+						"restool-sample-app",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"character"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar un personaje",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 900ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(900);",
+							"});",
+							"",
+							"pm.test(\"Validar corresta edicion, debe devolver ok\", function () {",
+							"  pm.expect(pm.response.text()).to.include(\"ok\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"location\": \"Kings Landing\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://restool-sample-app.herokuapp.com/api/character/qtw21XN4NUai",
+					"protocol": "https",
+					"host": [
+						"restool-sample-app",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						"qtw21XN4NUai"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar un personaje",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 900ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(900);",
+							"});",
+							"",
+							"pm.test(\"Validar que el personaje se elimino, debe devolver ok \", function () {",
+							"        pm.expect(pm.response.text()).to.include(\"ok\"); ",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://restool-sample-app.herokuapp.com/api/character/qtw21XN4NUai",
+					"protocol": "https",
+					"host": [
+						"restool-sample-app",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"character",
+						"qtw21XN4NUai"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

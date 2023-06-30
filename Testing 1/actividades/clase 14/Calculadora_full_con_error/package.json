@@ -1,0 +1,15 @@
+{
+  "name": "calculadora_full_con_error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "funcionalidad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
