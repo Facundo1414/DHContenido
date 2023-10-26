@@ -1,0 +1,8 @@
+user: facundoallende
+pass: admin /adminadmin
+
+user: root
+pass: admin
+
+user: debianUser1
+pass: user

@@ -1,5 +1,6 @@
 const suma = require('../calc.js');
-
+const p = require('../calc.js');
+/* 
 
 describe("Pruebas de sumas", function () {
     test("Suma de 2 numeros", function () {
@@ -15,4 +16,8 @@ describe("Pruebas de sumas", function () {
         expect(suma('a','b')).toBe(0);
     })
 
+}) */
+
+test("pp", function () {
+    expect(p().toHaveLenght(3))
 })

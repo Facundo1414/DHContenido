@@ -6,5 +6,7 @@ function suma(a,b) {
 }
 module.exports = suma;
 
+const provincias = ["a","b","c"]
 
+export const arrp = () => provincias;
 /* console.assert(suma(1,2)==3, 'Error: resultado esperado de 1 + 2 es 3') */

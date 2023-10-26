@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b56a8c2-ce1d-4dd5-ae53-4c52af21267e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Clase1-PRUEBA/TEST1-PRUEBA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase1Mesa/Mesa1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/Clase2Live.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/src/Contador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/src/ContadorEmpleadoContratado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/src/ContadorEmpleadoEfectivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/src/ContadorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/src/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/src/EmpleadoContratado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Live/src/EmpleadoEfectivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Pracitise/Clase2Practise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Pracitise/src/Pagos/Tarjeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Pracitise/src/Pagos/TarjetaCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Pracitise/src/Pagos/TarjetaDebito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase2Pracitise/src/Pagos/TarjetaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase3Practica/creditos/creditos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase3Practica/creditos/src/com/gobierno/Documento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase3Practica/creditos/src/com/gobierno/UsuarioGobierno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase3Practica/creditos/src/com/gobierno/mensajeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase3Practica/creditos/src/com/gobierno/usuarios/Diputado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase3Practica/creditos/src/com/gobierno/usuarios/Ministro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase3Practica/creditos/src/com/gobierno/usuarios/Presidente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase4Practica/Clase4Practica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase4Practica/src/PatronProxy/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase4Practica/src/PatronProxy/DConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase4Practica/src/PatronProxy/Documento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase4Practica/src/PatronProxy/DriveProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase4Practica/src/PatronProxy/DriveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/clase2Mesa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/src/NegocioComidas/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/src/NegocioComidas/MenuClasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/src/NegocioComidas/MenuInfantil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/src/NegocioComidas/MenuVegetariano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/src/NegocioComidas/Paquete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase2Mesa/src/NegocioComidas/PaqueteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3Integrador/clase3Integrador.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3Integrador/src/empresaDigital/Afiliado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3Integrador/src/empresaDigital/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3Integrador/src/empresaDigital/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3Integrador/src/empresaDigital/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3Integrador/src/empresaDigital/VenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/clase3mesa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/src/controldeCalidad/AnalistaDeCalidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/src/controldeCalidad/CompruebeCalidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/src/controldeCalidad/CompruebeCalidadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/src/controldeCalidad/ControlEnvase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/src/controldeCalidad/ControlLote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/src/controldeCalidad/ControlPeso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase3mesa/src/controldeCalidad/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase4Mesa/clase4Mesa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase4Mesa/src/PatronProxy/DownloadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase4Mesa/src/PatronProxy/DownloadServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase4Mesa/src/PatronProxy/SpotifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase4Mesa/src/PatronProxy/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/clase5practica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/src/patronFlyweight/Cancion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/src/patronFlyweight/CancionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/src/patronFlyweight/ListaDeReproduccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../clase5practica/src/patronFlyweight/Testsong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion Orientada a Objetos/actividades/clase 23/EjemploObserver/EjemploObserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Programacion Orientada a Objetos/actividades/clase 24/Tienda/Tienda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Base de Datos/MySQL Workbench 8.0 CE.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Base de Datos/actividades/semana 8/AdventureWorks.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Testing 1/actividades/clase 16/calculadora/__test__/calc.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing 1/actividades/clase 16/calculadora/__test__/calc.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Testing 1/actividades/clase 16/calculadora/calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing 1/actividades/clase 16/calculadora/calc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Testing 1/actividades/clase 17/ejercicoPlayG/js-testing-introduction-starting-setup/__test__/util.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing 1/actividades/clase 17/ejercicoPlayG/js-testing-introduction-starting-setup/__test__/util.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Testing 1/actividades/clase 17/ejercicoPlayG/js-testing-introduction-starting-setup/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing 1/actividades/clase 17/ejercicoPlayG/js-testing-introduction-starting-setup/util.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2WuSCtChkSvYZxCOzeEQbnHop9L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Facu/Desktop/DH/DHContenido/BackEnd/Patron Flyweight/src"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b56a8c2-ce1d-4dd5-ae53-4c52af21267e" name="Changes" comment="" />
+      <created>1697580848209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697580848209</updated>
+    </task>
+    <servers />
+  </component>
+</project>

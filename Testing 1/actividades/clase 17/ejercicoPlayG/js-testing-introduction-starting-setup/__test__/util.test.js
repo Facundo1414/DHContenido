@@ -1,20 +1,9 @@
-const { generateText, validateInput, createElement } = require('../util.js');
+const {provincias,sumar} = require('../probando')
 
-describe('generateText Pruebas de salida de datos', () => {
-    test('Salida con datos', () =>{
-        const text = generateText('Daniel',30);
-        expect(text).toBe('Daniel (30 years old)');
-    });
-    
-    test('Salida con datos vacios', () =>{
-        const text = generateText('',null);
-        expect(text).toBe(' (null years old)');    
-    });
-    
-    test('Salida sin datos', () =>{
-        const text = generateText();
-        expect(text).toBe('undefined (undefined years old)');    
-    });
+/* test("aaa", function () {
+    excpect(provincias()).toHaveLength(3);
+}) */
+
+test("suma",function (a,b) {
+    excpect(sumar(1,1)).toBe(2)
 })
-
-

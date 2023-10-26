@@ -1,0 +1,7 @@
+Próximos vuelos: se requiere un sistema Central Itinerarios que avise a los portales web de vuelos sobre las disponibilidades próximas. Estos portales deben recibir la información de cada vuelo en formato “ORIGEN - DESTINO, HH:mm” y almacenarla para poder mostrarla luego.
+
+Se pide tener una clase CentralItinerarios, encargada de almacenar en un ArrayList los próximos vuelos notificar a los portales.
+Se pide tener una clase vuelo, que instancia vuelos con el formato “ORIGEN - DESTINO, HH:mm” .
+Se pide tener una clase portal, que recibe las actualizaciones de los nuevos vuelos que se almacenan en CentralItinerarios y puede mostrarlos.
+
+

@@ -1,0 +1,100 @@
+[2023-10-20 18:21:13,340{yyyy-MM-dd[2023-10-20 18:21:13,340{yyyy-MM-ddjava.lang.ArithmeticException: / by zero
+	at TestLog.main(TestLog.java:10)
+[2023-10-20 18:21:13,342{yyyy-MM-dd[2023-10-20 18:21:13,342{yyyy-MM-dd[2023-10-20 18:21:13,342{yyyy-MM-ddEmpezamos nuestro metodo MAIN
+Error por dividir por cero 
+java.lang.ArithmeticException: / by zero
+	at TestLog.main(TestLog.java:10)
+Advertencia el metodo MAIN esta por finalizar
+Esto va a mostrarse solo si el infoLogger esta en DEBUG
+Finalizamos el thread MAIN
+Empezamos nuestro metodo MAIN
+Error por dividir por cero 
+java.lang.ArithmeticException: / by zero
+	at TestLog.main(TestLog.java:10)
+Advertencia el metodo MAIN esta por finalizar
+Esto va a mostrarse solo si el infoLogger esta en DEBUG
+Finalizamos el thread MAIN
+java.lang.Exception
+Error la edad es negativa
+java.lang.Exception
+	at Leon.esMayorA10(Leon.java:18)
+	at Main.main(Main.java:5)
+Chequeando si es mayor a 10
+Error la edad es menor a 10
+java.lang.Exception
+	at Leon.esMayorA10(Leon.java:19)
+	at Main.main(Main.java:5)
+Chequeando si es mayor a 10
+Error la edad es menor a 10
+java.lang.Exception
+	at Leon.esMayorA10(Leon.java:19)
+	at Main.main(Main.java:6)
+Chequeando si es mayor a 10
+Error la edad es menor a 10
+java.lang.Exception
+	at Leon.esMayorA10(Leon.java:19)
+	at Main.main(Main.java:4)
+Chequeando si es mayor a 10
+Error la edad es menor a 10
+java.lang.Exception
+	at Leon.esMayorA10(Leon.java:19)
+	at Main.main(Main.java:4)
+promedio = 6
+promedio = 6
+Mayor a 5 elementos
+Mayor a 10 elementos
+promedio = 5
+No hay elementos en la lista
+java.lang.Exception
+	at App.check(App.java:20)
+	at Main.main(Main.java:9)
+No hay elementos en la lista
+java.lang.Exception
+	at App.check(App.java:20)
+	at Main.main(Main.java:7)
+promedio = 3
+Datos de la lista
+promedio = 3
+Datos de la lista
+promedio = 3
+Datos de la lista
+Mayor a 5 elementos
+Mayor a 10 elementos
+promedio = 5
+Datos de la lista
+promedio = 3
+Datos de la lista
+Mayor a 5 elementos
+Mayor a 10 elementos
+promedio = 5
+Datos de la lista
+promedio = 3
+Datos de la lista
+Mayor a 5 elementos
+promedio = 5
+Datos de la lista
+No hay elementos en la lista
+java.lang.Exception
+	at App.check(App.java:21)
+	at Main.main(Main.java:34)
+Datos de la lista
+promedio = 3
+Datos de la lista
+Mayor a 10 elementos
+promedio = 5
+Datos de la lista
+No hay elementos en la lista
+java.lang.Exception
+	at App.check(App.java:21)
+	at Main.main(Main.java:34)
+Datos de la lista
+Mayor a 5 elementos
+promedio = 2
+Datos de la lista
+Mayor a 10 elementos
+promedio = 5
+Datos de la lista
+No hay elementos en la lista
+java.lang.Exception
+	at App.check(App.java:21)
+	at Main.main(Main.java:32)
