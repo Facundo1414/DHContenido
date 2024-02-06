@@ -1,0 +1,41 @@
+[2023-11-03 22:05:18] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:05:18] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:10:32] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:10:32] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:11:17] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:11:17] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:13:59] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-03 22:15:26] [ WARN ] [BD:31] Versión del archivo de base de datos no soportada ó encabezado de archivo invalido en archivo "C:/Users/DH/C21023ClinicaOdontologica.mv.db"
+Unsupported database file version or invalid file header in file "C:/Users/DH/C21023ClinicaOdontologica.mv.db" [90048-224]
+[2023-11-03 22:16:12] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:17:35] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID, EMAIL) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:18:38] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-03 22:18:55] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:18:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-03 22:19:15] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email ignacio@gmail.com
+[2023-11-03 22:19:15] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-07 19:56:01] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 19:59:33] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:38]  paciente guardado
+[2023-11-07 20:02:18] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 30
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:06:46] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-07 20:07:20] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-07 20:07:20] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 20:07:36] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:07:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 21:05:16] [ WARN ] [BD:31] Versión del archivo de base de datos no soportada ó encabezado de archivo invalido en archivo "C:/Users/Facu/C21023ClinicaOdontologica.mv.db"
+Unsupported database file version or invalid file header in file "C:/Users/Facu/C21023ClinicaOdontologica.mv.db" [90048-214]
+[2023-11-07 21:10:27] [ WARN ] [BD:31] Versión del archivo de base de datos no soportada ó encabezado de archivo invalido en archivo "C:/Users/Facu/C21023ClinicaOdontologica.mv.db"
+Unsupported database file version or invalid file header in file "C:/Users/Facu/C21023ClinicaOdontologica.mv.db" [90048-214]
+[2023-11-07 21:13:18] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-07 21:13:43] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-07 21:15:28] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-07 21:17:06] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-07 21:18:02] [ WARN ] [BD:31] org.h2.Driver

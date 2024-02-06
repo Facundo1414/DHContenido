@@ -1,0 +1,203 @@
+[2023-11-03 22:05:18] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:05:18] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:10:32] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:10:32] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:11:17] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:11:17] [ ERROR] [PacienteDAOH2:170] org.h2.Driver
+[2023-11-03 22:13:59] [ WARN ] [BD:31] org.h2.Driver
+[2023-11-03 22:15:26] [ WARN ] [BD:31] Versión del archivo de base de datos no soportada ó encabezado de archivo invalido en archivo "C:/Users/DH/C21023ClinicaOdontologica.mv.db"
+Unsupported database file version or invalid file header in file "C:/Users/DH/C21023ClinicaOdontologica.mv.db" [90048-224]
+[2023-11-03 22:16:12] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:17:35] [ WARN ] [BD:31] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID, EMAIL) VALUES('Jorgito','Pereyra','11111','2023-10-27','1','jorgito@jorgito.com'),('Paola','Viloria','22222','2023-10-15','2','paola@paola.com'),('Ignacio','Freilij','33333','2023-10-20','3'); INSERT INTO DOMICILIOS(CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','742','Sprinfield','Usa'),('Av.Colon','1600','Cordoba','Cordoba'),('Av. 9 de Julio','1200','Caba','Bs As') [21002-214]
+[2023-11-03 22:18:38] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-03 22:18:55] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-03 22:18:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-03 22:19:15] [ INFO ] [PacienteDAOH2:153] iniciando las operaciones de : buscado por email ignacio@gmail.com
+[2023-11-03 22:19:15] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-07 19:56:01] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 19:59:33] [ INFO ] [BD:28] datos cargados con exito
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-07 20:01:05] [ INFO ] [PacienteDAOH2:38]  paciente guardado
+[2023-11-07 20:02:18] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 30
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:06:46] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-07 20:06:46] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-07 20:07:20] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-07 20:07:20] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 20:07:36] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-07 20:07:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-07 21:58:54] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-07 22:01:23] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JorgitoApellido: Fuentes Bazan Matricula :  MP66
+[2023-11-07 22:01:23] [ ERROR] [OdontologoDAOH2:34] Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,[*]) VALUES(?,?,?)"; se esperaba "identifier"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,[*]) VALUES(?,?,?)"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO,) VALUES(?,?,?) [42001-214]
+[2023-11-07 22:03:15] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-07 22:03:33] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JorgitoApellido: Fuentes Bazan Matricula :  MP66
+[2023-11-09 14:36:53] [ WARN ] [BD:33] Versión del archivo de base de datos no soportada ó encabezado de archivo invalido en archivo "C:/Users/Facu/C21023ClinicaOdontologica.mv.db"
+Unsupported database file version or invalid file header in file "C:/Users/Facu/C21023ClinicaOdontologica.mv.db" [90048-214]
+[2023-11-09 14:38:11] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-09 14:41:40] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-09 14:52:06] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-09 14:52:06] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 14:52:31] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-09 14:52:31] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 14:53:17] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-09 14:53:23] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-09 14:53:23] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 14:57:10] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-09 14:57:11] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 14:57:32] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-09 14:57:32] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 15:05:50] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-09 15:05:50] [ ERROR] [DomicilioDAOH2:29] Cannot invoke "com.c2.ClinicaOdontologica.model.Domicilio.getCalle()" because "domicilio" is null
+[2023-11-09 15:05:50] [ ERROR] [PacienteDAOH2:42] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-11-09 15:06:41] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 2
+[2023-11-09 15:06:41] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 2
+[2023-11-09 15:06:44] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 3
+[2023-11-09 15:06:44] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-09 15:06:47] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 15:06:52] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 5
+[2023-11-09 15:06:55] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 6
+[2023-11-09 15:06:57] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 7
+[2023-11-09 15:06:58] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 8
+[2023-11-09 15:06:59] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 9
+[2023-11-09 15:07:00] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 11
+[2023-11-09 15:07:01] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-09 15:07:01] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 15:07:39] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-09 15:07:39] [ ERROR] [DomicilioDAOH2:29] Cannot invoke "com.c2.ClinicaOdontologica.model.Domicilio.getCalle()" because "domicilio" is null
+[2023-11-09 15:07:39] [ ERROR] [PacienteDAOH2:42] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-11-09 16:07:45] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:nullApellido: null Matricula :  null
+[2023-11-09 16:07:45] [ ERROR] [OdontologoDAOH2:34] La columna "MATRICULA" no permite valores nulos (NULL)
+NULL not allowed for column "MATRICULA"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23502-214]
+[2023-11-09 16:08:11] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:nullApellido: null Matricula :  null
+[2023-11-09 16:08:11] [ ERROR] [OdontologoDAOH2:34] La columna "MATRICULA" no permite valores nulos (NULL)
+NULL not allowed for column "MATRICULA"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23502-214]
+[2023-11-09 16:08:37] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:nullApellido: null Matricula :  MP10
+[2023-11-09 16:08:37] [ ERROR] [OdontologoDAOH2:34] La columna "NOMBRE" no permite valores nulos (NULL)
+NULL not allowed for column "NOMBRE"; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?) [23502-214]
+[2023-11-09 16:08:45] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JoseApellido: Lopez Matricula :  MP10
+[2023-11-09 16:08:57] [ INFO ] [OdontologoDAOH2:19] iniciando las operaciones de : guardado odontologo:JoseApellido: Lopez Matricula :  MP10
+[2023-11-09 16:09:34] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-09 16:09:34] [ ERROR] [DomicilioDAOH2:29] Cannot invoke "com.c2.ClinicaOdontologica.model.Domicilio.getCalle()" because "domicilio" is null
+[2023-11-09 16:09:34] [ ERROR] [PacienteDAOH2:42] Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2023-11-09 16:11:49] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-09 16:11:49] [ ERROR] [DomicilioDAOH2:29] La columna "PROVINCIA" no permite valores nulos (NULL)
+NULL not allowed for column "PROVINCIA"; SQL statement:
+INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES (?,?,?,?) [23502-214]
+[2023-11-09 16:11:49] [ ERROR] [PacienteDAOH2:42] Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.c2.ClinicaOdontologica.model.Domicilio.getId()" is null
+[2023-11-09 16:12:03] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-09 16:12:03] [ INFO ] [PacienteDAOH2:38]  paciente guardado
+[2023-11-09 16:12:32] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email "Facu@gmail.com"
+[2023-11-09 16:12:36] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-09 16:12:36] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 16:12:52] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email Facu@gmail.com
+[2023-11-09 16:12:52] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 5
+[2023-11-09 16:12:58] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 1
+[2023-11-09 16:12:58] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 16:13:00] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:13:00] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 5
+[2023-11-09 16:25:06] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id null
+[2023-11-09 16:25:06] [ ERROR] [PacienteDAOH2:72] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:25:40] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id null
+[2023-11-09 16:25:40] [ ERROR] [PacienteDAOH2:72] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:26:50] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id null
+[2023-11-09 16:26:50] [ ERROR] [PacienteDAOH2:72] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:27:03] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-09 16:27:08] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email Facu@gmail.com
+[2023-11-09 16:27:34] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:27:51] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 3
+[2023-11-09 16:27:51] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-09 16:27:54] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 3
+[2023-11-09 16:27:54] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 3
+[2023-11-09 16:27:59] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-09 16:27:59] [ INFO ] [PacienteDAOH2:38]  paciente guardado
+[2023-11-09 16:28:06] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:28:06] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:28:09] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email jorgito@jorgito.com
+[2023-11-09 16:28:09] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 1
+[2023-11-09 16:28:17] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email Facu@gmail.com
+[2023-11-09 16:28:17] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:28:17] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-09 16:28:17] [ ERROR] [PacienteDAOH2:122] Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.c2.ClinicaOdontologica.model.Domicilio.getId()" is null
+[2023-11-09 16:29:43] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:29:43] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:29:55] [ INFO ] [PacienteDAOH2:168] iniciando las operaciones de : buscado por email Facu@gmail.com
+[2023-11-09 16:29:55] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:29:55] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-09 16:29:55] [ ERROR] [PacienteDAOH2:122] Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.c2.ClinicaOdontologica.model.Domicilio.getId()" is null
+[2023-11-09 16:30:13] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-09 16:30:20] [ INFO ] [PacienteDAOH2:20] guardando paciente
+[2023-11-09 16:30:20] [ INFO ] [PacienteDAOH2:38]  paciente guardado
+[2023-11-09 16:30:23] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:30:23] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:30:26] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id null
+[2023-11-09 16:30:26] [ ERROR] [PacienteDAOH2:72] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:30:35] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:30:35] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:30:38] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id null
+[2023-11-09 16:30:38] [ ERROR] [PacienteDAOH2:72] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:33:18] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:33:18] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:33:18] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-09 16:33:18] [ ERROR] [PacienteDAOH2:122] Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.c2.ClinicaOdontologica.model.Domicilio.getId()" is null
+[2023-11-09 16:33:44] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:33:44] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:33:47] [ INFO ] [PacienteDAOH2:55] iniciando las operaciones de : buscado por id 4
+[2023-11-09 16:33:47] [ INFO ] [DomicilioDAOH2:42] iniciando las operaciones de buscar un domicilio con ID: 4
+[2023-11-09 16:33:47] [ INFO ] [PacienteDAOH2:103] iniciando las operaciones de : actualizado de un paciente 
+[2023-11-09 16:33:47] [ ERROR] [PacienteDAOH2:122] Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.c2.ClinicaOdontologica.model.Domicilio.getId()" is null
+[2023-11-09 16:36:13] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID 1
+[2023-11-09 16:36:46] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : 
+[2023-11-09 16:38:25] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID 1
+[2023-11-09 16:38:25] [ INFO ] [OdontologoDAOH2:98] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-09 16:38:25] [ ERROR] [OdontologoDAOH2:109] Parametro "#4" no está fijado
+Parameter "#4" is not set; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=? WHERE ID =? [90012-214]
+[2023-11-09 16:38:45] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID 1
+[2023-11-09 16:38:45] [ INFO ] [OdontologoDAOH2:98] iniciando las operaciones de : actualizar un odontologo 
+[2023-11-09 16:38:45] [ ERROR] [OdontologoDAOH2:109] Parametro "#4" no está fijado
+Parameter "#4" is not set; SQL statement:
+UPDATE ODONTOLOGOS SET MATRICULA=?, NOMBRE=?, APELLIDO=? WHERE ID =? [90012-214]
+[2023-11-09 16:38:57] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID null
+[2023-11-09 16:38:57] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:39:06] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID null
+[2023-11-09 16:39:06] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:39:50] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID null
+[2023-11-09 16:39:50] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:40:12] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-09 16:40:54] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-09 16:40:59] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID null
+[2023-11-09 16:40:59] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:41:06] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID null
+[2023-11-09 16:41:06] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:41:16] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID null
+[2023-11-09 16:41:16] [ ERROR] [OdontologoDAOH2:63] Cannot invoke "java.lang.Integer.intValue()" because "id" is null
+[2023-11-09 16:41:54] [ INFO ] [OdontologoDAOH2:122] iniciando las operaciones de : 
+[2023-11-09 16:42:20] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID 1
+[2023-11-09 16:42:26] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminado de un odontologo con ID:  1
+[2023-11-09 16:42:26] [ ERROR] [OdontologoDAOH2:85] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID=? [42001-214]
+[2023-11-09 16:44:36] [ INFO ] [OdontologoDAOH2:49] iniciando las operaciones de : buscado por ID 1
+[2023-11-09 16:44:40] [ INFO ] [OdontologoDAOH2:76] iniciando las operaciones de : eliminado de un odontologo con ID:  1
+[2023-11-09 16:44:40] [ ERROR] [OdontologoDAOH2:85] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ODONTOLOGOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM ODONTOLOGOS WHERE ID=? [42001-214]
+[2023-11-10 19:47:33] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:49:22] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:50:32] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:51:02] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:52:43] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:56:33] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 19:58:33] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:07:37] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:08:11] [ INFO ] [BD:30] datos cargados con exito
+[2023-11-10 20:09:49] [ INFO ] [BD:30] datos cargados con exito
